@@ -10,20 +10,6 @@ Docker and Docker Compose
 
 Communication via queue (pub/sub)
 
-Structure
-
-MicroserviceProject/
-??? OrderService/         # Web API that publishes messages to SQS
-?   ??? Program.cs
-?   ??? Services/
-?   ??? Controllers/
-?   ??? Dockerfile
-??? OrderProcessor/       # Console App that consumes messages from SQS
-?   ??? Program.cs
-?   ??? Dockerfile
-??? docker-compose.yml
-??? MicroserviceProject.sln
-
 Requirements
 
 Docker Desktop
